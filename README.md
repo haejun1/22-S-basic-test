@@ -14,6 +14,9 @@ COW HTML, CSS, JS 기본기 테스트를 위한 Repository입니다.
 ![PR 작성하기](https://user-images.githubusercontent.com/61923768/175821970-2264ab0b-bb1b-4a69-b36a-aed358ce3889.png)
 
 
+### 요구사항
+[notion으로 자세히 보기](https://coin-on-web.notion.site/Web-32abd85a25c542aabef2dae7bffa0fbf)
+
 ### 과제를 통해 기대하는 역량
 
 - 깃허브를 통한 공동 작업 방식을 체득해보자!
