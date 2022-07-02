@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web 기본기 테스트</title>
+  <link rel="stylesheet" href="./S.css">
+  <meta name = "vewport" content = "width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/cb1d5f17af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+                            <!-- header -->
+  <header>
+    <div id="logo">
+      <img src="https://github.com/MJU-Coin/22-S-basic-test/blob/main/images/logo.png?raw=true" alt="로고" height="50">
+    </div>
+  </header>
+
+                            <!-- nav -->
+
+  <nav class="navigationBar">
+    <ul class="category">
+        <li class="category_item">
+            <a href="#" class="category_menu">
+              <i class="fa-solid fa-bars"></i>
+                카테고리
+            </a>
+            <div class="category_submenu">
+              <a href="https://tumblbug.com/discover?category=board-games-and-trpg">보드게임·TRPG</a>
+              <a href="https://tumblbug.com/discover?category=digital-games">디지털게임</a>
+              <a href="https://tumblbug.com/discover?category=webtoon-and-comics">웹툰·만화</a>
+              <a href="https://tumblbug.com/discover?category=webtoon-resources">웹툰 리소스</a>
+              <a href="https://tumblbug.com/discover?category=design-stationery">디자인 문구</a>
+              <a href="https://tumblbug.com/discover?category=character-and-goods">캐릭터·굿즈</a>
+              <a href="https://tumblbug.com/discover?category=home-and-living">홈·리빙</a>
+              <a href="https://tumblbug.com/discover?category=technology-and-household-appliance">테크·가전</a>
+              <a href="https://tumblbug.com/discover?category=pet">반려동물</a>
+              <a href="https://tumblbug.com/discover?category=food">푸드</a>
+              <a href="https://tumblbug.com/discover?category=perfumes-and-beauty">향수·뷰티</a>
+              <a href="https://tumblbug.com/discover?category=apparels">의류</a>
+              <a href="https://tumblbug.com/discover?category=assorted-goods">잡화</a>
+              <a href="https://tumblbug.com/discover?category=jewellery">주얼리</a>
+              <a href="https://tumblbug.com/discover?category=publication">출판</a>
+              <a href="https://tumblbug.com/discover?category=design">디자인</a>
+              <a href="https://tumblbug.com/discover?category=art">예술</a>
+              <a href="https://tumblbug.com/discover?category=photography">사진</a>
+              <a href="https://tumblbug.com/discover?category=music">음악</a>
+              <a href="https://tumblbug.com/discover?category=film-and-video">영화·비디오</a>
+              <a href="https://tumblbug.com/discover?category=show">공연</a>
+            </div>
+        </li>
+    </ul>
+
+    <div class="검색창">
+      <form method="get" action="https://tumblbug.com/">
+        <input name="query" placeholder="검색어를 입력해주세요.">
+        <button class="search"></button>
+      </form>
+    </div>
+  </nav>
+
+  <aside id="container">
+    <section id="left">
+      <section id="banner">
+        <img id="prevBtn"/>
+        <div id="bannerBox">
+            <ul>
+                <li class="banner_item">제철 과일로 돌아왔다<br>치아가 환영하는 사탕</li>
+                <li class="banner_item">둘 다 입긴 덥고 습해<br>속옷과 바지를 하나로!</li>
+                <li class="banner_item" style="color: white;">나의 작가 덕후지수는?<br>김초엽 영역 덕력평가</li>
+                <li class="banner_item" style="color: white;">후원자가 반응하는<br>패션 사진 촬영법</li>
+            </ul>
+        </div>
+        <img id="nextBtn"/>
+      </section>
+      <section id="main">
+        <div id="디자인 문구">
+          <a href="https://tumblbug.com/better">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project1.jpg?raw=true" alt="글씨 교정 노트 이미지" style="height: 200px;">
+          악필은 고칠 수 있어. 그것도 매우 쉽게! 글씨 교정 노트</a>
+        </div>
+        <div id="웹툰·만화">
+          <a href="https://tumblbug.com/wananaudio1">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project2.jpg?raw=true" alt="웹툰 집이 없어 이미지" style="height: 200px;">
+          스타급 성우진과 함께 하는 <집이 없어> 오디오웹툰 시즌1</a>
+        </div>
+        <div id="푸드">
+          <a href="https://tumblbug.com/untuna">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project3.jpg?raw=true" alt="식물성참치 이미지" style="height: 200px;">
+          참치 아니었어? 식물성참치 UNTUNA! 이제는 대체참치다</a>
+        </div>
+        <div id="디지털 게임">
+          <a href="https://tumblbug.com/deliverykore">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project5.jpg?raw=true" alt="숲 속의 배달부 이미지" style="height: 200px;">
+          세상으로 생명을 배달하는 [숲 속의 배달부]</a>
+        </div>
+        <div id="테크·가전">
+          <a href="https://tumblbug.com/cablecutter">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project4.jpg?raw=true" alt="다재다능 충전기 이미지" style="height: 200px;">
+          감성까지 충전하는 다재다능한 5 in 1 충전기 C.C</a>
+        </div>
+        <div id="웹툰·만화">
+          <a href="https://tumblbug.com/missingdreams">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project6.jpg?raw=true" alt="꿈의 유실물 이미지" style="height: 200px;">
+          귀신들의 소망을 그린 만화 [꿈의 유실물]</a>
+        </div>
+        <div id="주얼리">
+          <a href="https://tumblbug.com/suitte7">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project7.jpg?raw=true" alt="향수 목걸이 이미지" style="height: 200px;">
+          자연이 만든 아름다운 모양, 조약돌처럼 귀여운 향수목걸이</a>
+        </div>
+        <div id="출판">
+          <a href="https://tumblbug.com/magazine_focus">
+          <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/notable_project8.jpg?raw=true" alt="한강의 대교 이미지" style="height: 200px;">
+          한강을 제대로 즐기고 싶다면, <한강의 대교></a>
+        </div>
+      </section>
+    </section>
+
+    <section id= "right">
+      <div class="pHead">
+        <h1>인기 프로젝트</h1>
+        <a href="https://tumblbug.com/discover?sort=popular&ongoing=onGoing">전체보기</a>
+      </div>
+
+      <div id = "currentTime">
+        <span id="current" class="display"></span>
+      </div>
+      <div class="디자인" name ="쥬나">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project1.jpg?raw=true" alt="로제딕" height =150px>
+        <h1>
+          읽기 쉽고 화려한 '덕질 타로' [로제딕]
+        </h1>
+      </div>
+      <div class="푸드" name ="mintea">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project2.jpg?raw=true" alt="자일로 큐브" height =150px>
+        <h1>
+          입에서 굴릴수록 치아가 건강해지는 마법의 사탕, 자일로큐브
+        </h1>
+      </div>
+      <div class="출판" name="그로스쿨">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project3.jpg?raw=true" alt="IT 업게 용어사전" height =150px>
+        <h1>
+          이것만 알아도 대화가 통한다! IT/기획/개발/마케팅 용어
+        </h1>
+      </div>
+      <div class="향수·뷰티" name="소아모">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project4.jpg?raw=true" alt="AMBROSIA" height =150px>
+        <h1>
+          넥타르와 함께 즐긴, 승도복숭아를 품은 '암브로시아 향수'
+        </h1>
+      </div>
+      <div class="향수·뷰티" name="닉스">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project5.jpg?raw=true" alt="Fortune Teller Le Fay" height =150px>
+        <h1>
+          [타로 퍼퓸] 달콤한 라즈베리빛 & 잔잔한 바이올렛빛 사랑
+        </h1>
+      </div>
+      <div class="향수·뷰티" name="퍼퓸바">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project6.jpg?raw=true" alt="SEX ON THE BEACH" height =150px>
+        <h1>
+          [섹스 온 더 비치] 너의 사랑을 이뤄줄 은밀한 칵테일향기
+        </h1>
+      </div>
+      <div class="웹툰 리소스" name="팀 플래터">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project7.jpg?raw=true" alt="a blue hair$eyes woman" height =150px>
+        <h1>
+          2D처럼 자연스럽게! 그대로 쓰는 3D < 프릴&레이스 >
+        </h1>
+      </div>
+      <div class="웹툰·만화" name="네이버웹툰">
+        <img src="https://github.com/haejun1/22-S-basic-test/blob/main/images/popular_project8.jpg?raw=true" alt="man&dragon" height =150px>
+        <h1>
+          네이버웹툰 <도롱이> 단행본 1-5권 세트 제작
+        </h1>
+      </div>
+    </section>
+
+    
+  </aside>
+
+
+
+  <hr>
+  <footer>
+    <div class="footerMenu">
+      <p class="footerSubMenu">공지사항</p>
+      <p class="footerSubMenu">서비스 소개</p>
+      <p class="footerSubMenu">채용</p>
+      <p class="footerSubMenu">2021 연말결산</p>
+      <p class="footerSubMenu">헬프 센터</p>
+      <p class="footerSubMenu">첫 후원 가이드</p>
+      <p style="color:red" class="footerSubMenu">창작자 가이드</p>
+      <p class="footerSubMenu">제휴·협력</p>
+      <p class="footerSubMenu">이용약관</p>
+      <p style="font-weight:bold" class="footerSubMenu">개인정보 처리방침</p>
+      <p class="footerSubMenu">프로젝트 심사 기준</p>
+    </div>
+
+    <br>
+
+    <div class="문의">
+      <h1>
+        고객지원
+      </h1>
+      <h2>
+        평일 9:00 ~ 17:00 (12:00 ~14:00 제외)
+      </h2>
+      <div class="sub문의">
+        텀블벅에 문의
+      </div>
+    </div>
+
+    <br>
+
+    <div class = logos>
+      <a href="https://pf.kakao.com/_BAxdXj">
+        <img src="./카카오톡2.png" alt="naver" style = "height:20px">
+      </a>
+      <a href="https://www.facebook.com/tumblbug">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/tumblbug">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/tumblbug">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://post.naver.com/tumblbug_n">
+        <img src="./(웅디자인) 네이버 심볼.png" alt="naver" style = "height:20px">
+      </a>
+      <a href="https://brunch.co.kr/@tumblbug">
+        <i class="fa-solid fa-code-branch"></i>
+      </a>
+    </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script>
+var $categoryItem = $('.category_item'),
+    $categoryMenu = $('.category_menu'),
+    $categoryMenu = $('.category_submenu');
+
+$categoryMenu.hide();
+
+$categoryItem.mouseenter(function(){
+  $(this).children('.category_submenu').stop().slideDown();
+});
+
+$categoryItem.mouseleave(function(){
+  $(this).children('.category_submenu').stop().slideUp();
+});
+
+// 삑
+
+
+setInterval(displayNow, 1000);
+function displayNow() {
+  let now = new Date();
+  let currentTime = now.toLocaleTimeString();
+  document.querySelector("#current").innerHTML = currentTime
+};
+
+
+//삑
+
+const bannerBox = document.querySelector("#bannerBox > ul");
+const bannerItem = document.querySelectorAll(".banner_item");
+
+
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+
+const size = bannerItem[0].clientWidth;
+
+let counter = 0;
+
+nextBtn.addEventListener("click", () => {
+  if (counter < bannerItem.length - 1) {
+    counter++;
+    bannerBox.style.transform = "translateX(" + -size * counter + "px)";
+  } else if (counter === bannerItem.length - 1) {
+    counter = 0;
+    bannerBox.style.transform = "translateX(" + -size * counter + "px)";
+  }
+});
+
+prevBtn.addEventListener("click", () => {
+  if (counter > 0) {
+    counter--;
+    bannerBox.style.transform = "translateX(" + -size * counter + "px)";
+  } else {
+    counter = bannerItem.length - 1;
+    bannerBox.style.transform = "translateX(" + -size * counter + "px)";
+  }
+});
+
+$(document).ready(function(){
+  $(".footerSubMenu").mouseover(function(){
+    $(this).css("font-weight", "bold");
+  });
+  $(".footerSubMenu").mouseout(function(){
+    $(this).css("font-weight", "normal");
+  });
+});
+
+$(document).ready(function(){
+  $(".sub문의").mouseover(function(){
+    $(this).css("border", "1px solid black");
+  });
+  $(".sub문의").mouseout(function(){
+    $(this).css("border", "1px solid rgb(228, 228, 228)");
+  });
+});
+
+$(document).ready(function(){
+  $(".category_menu").mouseover(function(){
+    $(this).css("color", "red");
+  });
+  $(".category_menu").mouseout(function(){
+    $(this).css("color", "black");
+  });
+});
+
+</script>
+
+</body>
+</html>
+
+<!-- 1. 기본 구조 레이아웃을 구현하라
+뭐 header  nav footer main aside section article 이걸 말하는거겠져
+    다 div로 만드는 것보다 구조를 파악하기 쉬워서 사용함니다
+  header은 로고 제목 검색창
+  nav는 링크들을 포함하는 태그 즉 메뉴나 색인(목차) 등에 사용 
+  footer은 최하단에 쓰이는 것으로 연락처 등이 들어감
+  main은 주요 내용 즉 본문이자 페이지에서 하나만 존재해야 함
+  aside는 사이드 바
+  section은 페이지의 컨텐츠를 일정 단위로 나누는거 더 작은 단위는 div이다.
+  article은 페이지 내에서 재사용 가능하거나 다른 페이지에서도 사용될 수 있는 컨텐츠 (쓰지말자)
+
+2. Navigation Bar
+  1) nav를 말하는 거 같고 그 카테고리들 있고 그 아래 세부 내용있는거
+  약간 학교 홈페이지 같이 만드는거 상단에 고정 시키자
+  2) 선택한 카테고리만 색깔 다른 상태로 유지하게
+  3) 검색창 만드는데 이 검색창은 뭐 버튼 누르면 검색창이 생기고 닫는 버튼도 있어야 될 듯 함
+  4) 검색어에 따라서 추천 리스트를 변경하라는데 연관 검색어같은 느낌인 듯 / 그 도와주는거 있잖아 그거
+  5) 검색기록 초기화 버튼 구현
+  ㄱ) 카테고리는 21개가 있다.
+
+3. Side Bar
+  1) 인기 프로젝트 페이지 이동 버튼 3가지
+  2) 인기 프로젝트 전체보기 버튼 + 버튼 색 변경
+  3) 실시간 시계
+  4) 돋보기 만들기
+  5) 카테고리하고 창작자인 것들 밑줄로 표시해주는 기능 구현
+  ㄱ) 인기 프로젝트는 8개 있다 notable 프로젝트도 8개 있는데 왜 구별해놓은건지는 모르겠다
+  ㄴ) 프로젝트마다 카테고리에 연결되어 있다
+  ㄷ) 제작자도 있다
+
+4. Banner
+  1) Sider Bar과는 다르게 스크롤에 따라 움직임
+  2) 배너 순서 및 개수 표시하기
+  3) 배너를 좌 우 움직일 수 있게 하는 버튼 구현 + 버튼 색 변경
+  ㄱ) banner 배열은 총 4개이며 id가 0~3으로 설정되어 있음
+  ㄴ) 대충 느낌 온다
+
+5. Main Article
+  1) 리스트 아이템 사진 확대 기능 
+  2) 카테고리 및 창작자 밑줄 생성 기능 구현 (Side Bar에도 있음)
+
+6. Footer
+  1) 고객 지원 버튼 강조 기능 구형
+  2) sns 이동 버튼 강조 기능 구현
+  3) 하위 메뉴 강조 기능 구현?
+
+7. 추가 기능
+  1)Responsesive(반응형) 웹 구현 즉 접속한 브라우저에 따라 창 화면 달라지게
+  2)head안에 viewport meta 머시기 설정하면 된다. -->
+  
